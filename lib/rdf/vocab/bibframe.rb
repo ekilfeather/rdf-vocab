@@ -102,7 +102,7 @@ module RDF::Vocab
          label: "Audio recording take".freeze,
          subClassOf: "http://bibframe.org/vocab/Identifier".freeze,
          type: "http://www.w3.org/2002/07/owl#Class".freeze
-    term :Barcode,
+    term :barcode,
          definition: "Optical machine-readable representation of data relating to the item to which it is attached.".freeze,
          "http://purl.org/dc/terms/modified": ["2016-04-21 (New)".freeze, "2017-02-03 (Moved to Identifier class group from Item group)".freeze],
          label: "Barcode".freeze,
@@ -903,7 +903,7 @@ module RDF::Vocab
          label: "Script".freeze,
          subClassOf: "http://bibframe.org/vocab/Notation".freeze,
          type: "http://www.w3.org/2002/07/owl#Class".freeze
-    term :ShelfMark,
+    term :shelfMark,
          definition: "Piece/item identifier, such as a call or other type of number.".freeze,
          "http://purl.org/dc/terms/modified": "2016-04-21 (New)".freeze,
          label: "Shelf location".freeze,
