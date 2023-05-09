@@ -915,6 +915,12 @@ module RDF::Vocab
          label: "Shelf location".freeze,
          subClassOf: "http://bibframe.org/vocab/Identifier".freeze,
          type: "http://www.w3.org/2002/07/owl#Class".freeze
+    term :ShelfMark,
+         definition: "Piece/item identifier, such as a call or other type of number.".freeze,
+         "http://purl.org/dc/terms/modified": "2016-04-21 (New)".freeze,
+         label: "Shelf location".freeze,
+         subClassOf: "http://bibframe.org/vocab/Identifier".freeze,
+         type: "http://www.w3.org/2002/07/owl#Class".freeze
     term :ShelfMarkDdc,
          definition: "Shelf mark based on Dewey Decimal Classification.".freeze,
          "http://purl.org/dc/terms/modified": "2016-04-21 (New)".freeze,
