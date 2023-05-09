@@ -108,6 +108,12 @@ module RDF::Vocab
          label: "Barcode".freeze,
          subClassOf: "http://bibframe.org/vocab/Identifier".freeze,
          type: "http://www.w3.org/2002/07/owl#Class".freeze
+    term :Barcode,
+         definition: "Optical machine-readable representation of data relating to the item to which it is attached.".freeze,
+         "http://purl.org/dc/terms/modified": ["2016-04-21 (New)".freeze, "2017-02-03 (Moved to Identifier class group from Item group)".freeze],
+         label: "Barcode".freeze,
+         subClassOf: "http://bibframe.org/vocab/Identifier".freeze,
+         type: "http://www.w3.org/2002/07/owl#Class".freeze
     term :BaseMaterial,
          definition: "Underlying physical material of a resource.".freeze,
          "http://purl.org/dc/terms/modified": ["2016-04-21 (New)".freeze, "2021-06-09 (Changed subclass to Material [GH28])".freeze],
